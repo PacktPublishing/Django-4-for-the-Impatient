@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movies App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      {% for news in newss %}
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div>
+            <div class="card-body">
+              <h5 class="card-title">{{ news.headline }}</h5>
+              <p class="card-text">{{ news.body }}</p>
+              <p class="card-text"><small class="text-muted">
+                {{ news.date }}
+              </small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
