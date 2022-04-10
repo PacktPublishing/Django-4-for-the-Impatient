@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card mb-3">
+  <div class="row g-0">
+    <div>
+      <div class="card-body">
+        <h5 class="card-title">
+          Update Review for {{ review.movie.title }}
+        </h5>
+        {% if error %}
+        <div class="alert alert-danger mt-3" role="alert">
+          {{ error }}
+        </div>
+        {% endif %}
+        <p class="card-text">
+          <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary">
+              Update Review
+            </button>
+          </form>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
