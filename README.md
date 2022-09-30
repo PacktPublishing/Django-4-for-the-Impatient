@@ -65,6 +65,10 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Python Web Development with Sanic [[Packt]](https://www.packtpub.com/product/python-web-development-with-sanic/9781801814416?utm_source=github&utm_medium=repository&utm_campaign=9781801814416) [[Amazon]](https://www.amazon.com/dp/1801814414)
 
+## Errata 
+ * Page 64 (Code Snippet 3,line 2):  **python3 manage.py migrat** _should be_ **python3 manage.py migrate**
+ * Page 64 (Code Snippet 4,line 2):**python manage.py migr3te** _should be_ **python manage.py migrate**
+ 
 ## Get to Know the Authors
 **Greg Lim**
 is a technologist and the author of several books on programming. He has taught programming in tertiary institutions for many years and places a strong emphasis on learning by doing.
