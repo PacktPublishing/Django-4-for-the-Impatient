@@ -68,6 +68,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ## Errata 
  * Page 64 (Code Snippet 3,line 2):  **python3 manage.py migrat** _should be_ **python3 manage.py migrate**
  * Page 64 (Code Snippet 4,line 2):**python manage.py migr3te** _should be_ **python manage.py migrate**
+ * Page 2 (line 4):**There are other popular frameworks, such as Flash in Python and Express in JavaScript** _should be_ **There are other popular frameworks, such as Flask in Python and Express in JavaScript**
  
 ## Get to Know the Authors
 **Greg Lim**
