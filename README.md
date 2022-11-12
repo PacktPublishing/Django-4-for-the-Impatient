@@ -78,3 +78,7 @@ is a technologist and the author of several books on programming. He has taught 
 is a researcher, a software developer, and author of programming books. He has a Ph.D. in Computer Science. He is a professor at Universidad EAFIT in Colombia. He is interested in software architectures, frameworks (such as Laravel, Nest, Django, Express, Vue, React, Angular, and many more), web development, and clean code.
 
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781803245836">https://packt.link/free-ebook/9781803245836 </a> </p>
