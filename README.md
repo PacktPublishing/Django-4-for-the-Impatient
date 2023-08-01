@@ -74,7 +74,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
  * Page 2 (line 4):**There are other popular frameworks, such as Flash in Python and Express in JavaScript** _should be_ **There are other popular frameworks, such as Flask in Python and Express in JavaScript**
 ## Chapter 04 Errata, Page no. 33
 To achieve the form shown in Figure 4.10, the following changes need to be made, in addition to adding the code in bold mentioned for home.html on page 33:
-* Page 31 (Code Snippet 2, line 3): **Welcome to Home Page, {{name}}** _should be removed from_ from **home.html**
+* Page 31 (Code Snippet 2, line 3): **Welcome to Home Page, {{name}}** _should be removed from_ **home.html**
 * Page 28 (Code snippet 2, line 2): **return render(request, 'home.html', {'name': 'Greg Lim'})** _should be corrected to_ **return render(request, 'home.html')**
 
  
