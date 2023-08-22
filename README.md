@@ -73,6 +73,19 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
  * Page 64 (Code Snippet 4,line 2):**python manage.py migr3te** _should be_ **python manage.py migrate**
  * Page 2 (line 4):**There are other popular frameworks, such as Flash in Python and Express in JavaScript** _should be_ **There are other popular frameworks, such as Flask in Python and Express in JavaScript**
  * Page 33 (Code Snippet 1): The lines of code **`<h1>Welcome to the Home Page, {{ name }}</h1>`** and **`<h2>This is the full home page</h2>`** between the **`<div class="container">`** and **`</div>`** tags _should be removed_ in order to obtain the output shown in Figure 4.10.
+* Chapter 7, Page 78 (before running the migrations): Before proceeding with the migration process, you need to modify the "DATABASES" 
+  variable in the "moviereviews/settings.py" file. It should look like this:
+```
+DATABASES = {
+'default': {
+'ENGINE': 'django.db.backends.mysql',
+'NAME': 'moviereviews',
+'USER': 'root',
+'PASSWORD': '',
+}
+}
+```
+---
 
  
 ## Get to Know the Authors
